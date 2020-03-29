@@ -6,11 +6,9 @@ import { Layout } from "../components/Layout"
 import SEO from "../components/SEO"
 import { rhythm, scale } from "../utils/typography"
 
-const BlogPostTemplate = ({ data, context }) => {
+const BlogPostTemplate = ({ data, pageContext }) => {
   const post = data.mdx
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = context
-  console.log(post)
+  const { previous, next } = pageContext
   return (
     <Layout>
       <SEO
