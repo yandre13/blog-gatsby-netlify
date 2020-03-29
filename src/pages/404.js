@@ -3,9 +3,7 @@ import React from "react"
 import { Layout } from "../components/Layout"
 import SEO from "../components/SEO"
 
-export const Page404 = data => {
-  const siteTitle = data.site.siteMetadata.title
-
+export const Page404 = () => {
   return (
     <Layout>
       <SEO title="404: Not Found" description="nothing found" siteUrl={"ddd"} />
