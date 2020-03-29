@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: yandre13/blog-gatsby-netlify
 
 media_folder: static/assets
 public_folder: assets

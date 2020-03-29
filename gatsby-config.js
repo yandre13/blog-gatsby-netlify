@@ -1,17 +1,19 @@
+const siteMetadata = {
+  title: `Starter styled components`,
+  description: `Made with 🖤 for a better web`,
+  image: `/image.png`,
+  siteUrl: `https://starter-landing-styled.netlify.com/`,
+  siteLanguage: `en`,
+  siteLocale: `en`,
+  author: `@yandre`,
+}
+
 module.exports = {
-  siteMetadata: {
-    // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Kyle Matthews`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
-  },
+  siteMetadata,
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
+    `gatsby-styled-components-dark-mode`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
