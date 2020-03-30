@@ -2,8 +2,8 @@ backend:
  name: github
  repo: yandre13/blog-gatsby-netlify
 
-media_folder: static/assets
-public_folder: assets
+media_folder: static/images/uploads
+public_folder: /images/uploads
 
 collections:
  - name: blog
@@ -16,4 +16,3 @@ collections:
     - { name: title, label: Title }
     - { name: description, label: Description }
     - { name: body, label: Body, widget: markdown }
-    - { label: 'Image', name: 'thumbnail', widget: 'image' }
