@@ -12,7 +12,7 @@ body{
  height: 100vh;
  overflow-x: hidden;
  font-family: 'Ubuntu', sans-serif;
- font-size: 16px;
+ font-size: 14px;
  line-height: 24px;
  color: ${props =>
 		props.theme.isDark ? dark.primaryColor : light.primaryColor};
@@ -23,7 +23,12 @@ body{
 	@media screen and (min-width: 1680px) {
 		font-size: 18px;
 		line-height: 26px;
-	}
+ }
+ 
+ & pre.prism-code{
+ border-radius: 10px;
+ padding: 20px;
+}
 }
 `
 
