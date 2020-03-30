@@ -1,5 +1,5 @@
 import Highlight, { defaultProps } from 'prism-react-renderer'
-import dark from 'prism-react-renderer/themes/Monokai'
+import dark from './theme'
 import light from 'prism-react-renderer/themes/github'
 import React, { useState, useContext } from 'react'
 import { ThemeManagerContext } from 'gatsby-styled-components-dark-mode'
