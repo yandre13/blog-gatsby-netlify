@@ -5,6 +5,11 @@ title: This is my first post from Netlify CMS
 description: I'm loving it as much as you can imagine
 thumbnail: assets/react.png
 ---
-#### Hi guys I'm learning how to use Netlify CMS
+## Hi guys I'm learning how to use Netlify CMS
+### Mongo says hellouu
 
-![react](assets/react.png)
+
+
+
+
+![react](/images/uploads/robo3t.png)
