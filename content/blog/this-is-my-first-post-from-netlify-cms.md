@@ -6,3 +6,5 @@ description: I'm loving it as much as you can imagine
 thumbnail: assets/react.png
 ---
 #### Hi guys I'm learning how to use Netlify CMS
+
+![react](assets/react.png)
