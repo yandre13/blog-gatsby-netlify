@@ -110,6 +110,7 @@ export const P = styled.p`
 `
 
 export const Small = styled.small`
+	display: block;
 	font-size: 14px;
 	font-weight: ${props => (props.weight ? props.weight : 'normal')};
 	text-align: ${props => props.ma && props.ma};

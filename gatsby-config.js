@@ -78,6 +78,13 @@ module.exports = {
 				// edit below
 				icon: `content/assets/gatsby-icon.png`
 			}
+		},
+		{
+			resolve: `gatsby-plugin-google-fonts`,
+			options: {
+				fonts: [`Baloo Thambi 2`],
+				display: 'swap'
+			}
 		}
 	]
 }

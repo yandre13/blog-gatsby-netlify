@@ -3,13 +3,11 @@ import Img from 'gatsby-image'
 import { Link } from 'gatsby'
 import { dark, light } from './config'
 
-export const Image = styled(Img)`
-	width: 100%;
-	height: 100%;
-	@media screen and (min-width: 600px) {
-		width: 100%;
-		height: 100%;
-	}
+export const ImageProfile = styled(Img)`
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: auto;
 `
 
 export const BannerContainer = styled.div`
